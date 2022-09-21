@@ -1,0 +1,9 @@
+.login-main {
+  margin-top: 10%;
+}
+mat-card-title{
+  margin-bottom: 30% !important;
+}
+mat-card {
+  min-width: 25%;
+}
