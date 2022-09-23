@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  url_api : 'http://localhost:1020/consultorio/api',
+  USER_POOL_REGION: 'us-east-1',
+  USER_POOL_ID: 'us-east-1_tUCIm649L',
+  USER_POOL_REDIRECT_SIGN_IN: 'http://localhost:4200/logout',
+  USER_POOL_REDIRECT_SIGN_OUT: 'http://localhost:4200/login',
+  USER_POOL_INDETITY_PROVIDER: 'IniciarSSO'
 };
 
 /*

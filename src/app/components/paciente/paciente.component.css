@@ -1,0 +1,45 @@
+.titulo{
+  display: flex;
+  background-color: gainsboro;
+  width: 100% ;
+  height: 10%;
+}
+
+.titulo h2{
+  margin-left: 9%;
+  padding-top: 1.8%;
+}
+
+.titulo button{
+  margin-left: 65%;
+}
+
+.titulo .mat-button-base{
+  margin-top: 1%;
+  width: 4%;
+  height: 70%;
+}
+
+.tab-pacientes{
+  height: 95%;
+  width: 99%;
+  padding-bottom: 2% !important;
+}
+
+.tab-pacientes th{
+  color: rgba(0, 0, 0, 0.89);
+  font-size: medium;
+}
+
+.acciones{
+  width: 20%;
+  padding: 0%;
+}
+
+.acciones button{
+  margin-left: 5px;
+  padding-left: 0%;
+  padding-right: 0%;
+  width: 2% !important;
+}
+
