@@ -21,7 +21,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatListModule } from '@angular/material/list';;
+import { MatListModule } from '@angular/material/list';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatTableModule } from '@angular/material/table';
 
 
 @NgModule({
@@ -46,7 +48,9 @@ import { MatListModule } from '@angular/material/list';;
     MatToolbarModule,
     MatListModule,
     FontAwesomeModule,
-    BlockUIModule.forRoot()
+    BlockUIModule.forRoot(),
+    MatGridListModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
