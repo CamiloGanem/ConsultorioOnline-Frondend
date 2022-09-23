@@ -1,0 +1,38 @@
+.sidenav-container{
+  height: 768px;
+}
+
+.sidenav{
+  width: 220px;
+  border-color: #2330A6;
+  background-color: #2330A6;
+}
+
+.menu-logo{
+  margin: 60px 0px 0px 15px;
+  width: 85%;
+  object-fit: cover;
+}
+
+mat-toolbar{
+  background-color: #2330A6;
+}
+
+mat-list-nav{
+  margin-left: 1%;
+}
+
+
+.menu-links{
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.active-link {
+  background-color: aliceblue;
+}
+
+.mat-nav-list .mat-list-item:focus{
+  background-color: aliceblue;
+
+}

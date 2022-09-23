@@ -1,9 +1,9 @@
 <div fxLayout="row" fxLayoutAlign="center center" class="login-main">
   <mat-card>
     <mat-card-header>
-      <mat-card-title>Iniciar Sesion</mat-card-title>
+      <mat-card-title>Consultorio Online</mat-card-title>
     </mat-card-header>
-    <form [formGroup]="login" (ngSubmit)="create()">
+    <form [formGroup]="login" (ngSubmit)="entrar()">
     <mat-card-content fxLayout="column">
       <mat-form-field>
         <input type="email" formControlName="email" matInput placeholder="Email" required>
